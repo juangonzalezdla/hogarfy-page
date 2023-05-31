@@ -5,12 +5,51 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+
   <title>Hogarfy</title>
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-  
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a class="navbar__logo" href="index.html">Hogarfy</a>
+        
+        <div class="navbar__searcher">
+          <input class="navbar__searcher__input" type="text" placeholder="Encuentra tu necesidad">
+          <img class="navbar__searcher__icon" src="./assets/icons/search.svg" alt="search-icon">
+        </div>
+
+        <div class="navbar__btn">
+          <div class="navbar__btn__container user">
+            <img class="navbar__btn__icon" src="./assets/icons/user.svg" alt="user-icon">
+            <p class="navbar__btn__name">Usuario</p>
+          </div>
+
+          <div class="navbar__btn__container package">
+            <img class="navbar__btn__icon" src="./assets/icons/package.svg" alt="package-icon">
+            <p class="navbar__btn__name">Pedidos</p>
+          </div>
+
+          <div class="navbar__btn__container cart">
+            <img class="navbar__btn__icon" src="./assets/icons/cart.svg" alt="cart-icon">
+            <p class="navbar__btn__name">Carrito</p>
+          </div>
+        </div>
+      </nav>
+
+      <nav class="navbar__dropdown">
+        <ul class="navbar__ul">
+          <li></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 </body>
 
 </html>
