@@ -8,7 +8,8 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@700&display=swap"
+    rel="stylesheet">
 
   <title>Hogarfy</title>
   <link rel="stylesheet" href="./css/styles.css">
@@ -16,51 +17,144 @@
 
 <body>
   <header class="header">
-    <div class="container">
-      <nav class="navbar">
-        <a class="navbar__logo" href="index.html">Hogarfy</a>
-        
-        <div class="navbar__searcher">
-          <input class="navbar__searcher__input" type="text" placeholder="Encuentra tu necesidad">
-          <img class="navbar__searcher__icon" src="./assets/icons/search.svg" alt="search-icon">
+
+    <nav class="navbar container">
+      <a class="navbar__logo" href="index.html">Hogarfy</a>
+
+      <div class="navbar__searcher">
+        <input class="navbar__searcher__input" type="text" placeholder="Encuentra tu necesidad">
+        <img class="navbar__searcher__icon" src="./assets/icons/search.svg" alt="search-icon">
+      </div>
+
+      <div class="navbar__btn">
+        <div class="navbar__btn__container user">
+          <img class="navbar__btn__icon" src="./assets/icons/user.svg" alt="user-icon">
+          <p class="navbar__btn__name">Usuario</p>
         </div>
 
-        <div class="navbar__btn">
-          <div class="navbar__btn__container user">
-            <img class="navbar__btn__icon" src="./assets/icons/user.svg" alt="user-icon">
-            <p class="navbar__btn__name">Usuario</p>
-          </div>
-
-          <div class="navbar__btn__container package">
-            <img class="navbar__btn__icon" src="./assets/icons/package.svg" alt="package-icon">
-            <p class="navbar__btn__name">Pedidos</p>
-          </div>
-
-          <div class="navbar__btn__container cart">
-            <img class="navbar__btn__icon" src="./assets/icons/cart.svg" alt="cart-icon">
-            <p class="navbar__btn__name">Carrito</p>
-          </div>
+        <div class="navbar__btn__container package">
+          <img class="navbar__btn__icon" src="./assets/icons/package.svg" alt="package-icon">
+          <p class="navbar__btn__name">Pedidos</p>
         </div>
-      </nav>
 
-      <nav class="navbar__categories">
-        <ul class="navbar__dropdown">
-          <button class="navbar__category tecnologia">Tecnologia
-            <img class="navbar__category__icon" src="./assets/icons/chevron-down.svg" alt="chevron-down-icon">
-          </button>
-          <li class="navbar__category__content">
-            <a class="navbar__category__productos" href="#">Computadores</a>
-            <a class="navbar__category__productos" href="#">Celulares</a>
-            <a class="navbar__category__productos" href="#">Impresoras</a>
-            <a class="navbar__category__productos" href="#">Consolas y videojuegos</a>
-            <a class="navbar__category__productos" href="#">Monitores</a>
-            <a class="navbar__category__productos" href="#">Camaras</a>
-            <a class="navbar__category__productos" href="#">Perifericos y accesorios</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+        <div class="navbar__btn__container cart">
+          <img class="navbar__btn__icon" src="./assets/icons/cart.svg" alt="cart-icon">
+          <p class="navbar__btn__name">Carrito</p>
+        </div>
+      </div>
+    </nav>
   </header>
+
+  <nav class="navbar--2">
+    <div class="navbar__categories container">
+      <div class="navbar__dropdown">
+        <button class="navbar__category tecnologia">Tecnologia
+          <img class="navbar__category__icon" src="./assets/icons/chevron-down.svg" alt="chevron-down-icon">
+        </button>
+        <div class="navbar__category__content">
+          <a class="navbar__category__productos" href="#">Computadores</a>
+          <a class="navbar__category__productos" href="#">Celulares</a>
+          <a class="navbar__category__productos" href="#">Impresoras</a>
+          <a class="navbar__category__productos" href="#">Consolas y videojuegos</a>
+          <a class="navbar__category__productos" href="#">Monitores</a>
+          <a class="navbar__category__productos" href="#">Camaras</a>
+          <a class="navbar__category__productos" href="#">Perifericos y accesorios</a>
+        </div>
+      </div>
+
+      <div class="navbar__dropdown">
+        <button class="navbar__category electrodomesticos">Electrodomesticos
+          <img class="navbar__category__icon" src="./assets/icons/chevron-down.svg" alt="chevron-down-icon">
+        </button>
+        <div class="navbar__category__content">
+          <a class="navbar__category__productos" href="#">Televisores</a>
+          <a class="navbar__category__productos" href="#">Neveras</a>
+          <a class="navbar__category__productos" href="#">Lavadoras</a>
+          <a class="navbar__category__productos" href="#">Aires acondicionados</a>
+          <a class="navbar__category__productos" href="#">Licuadoras</a>
+          <a class="navbar__category__productos" href="#">Airfryers</a>
+          <a class="navbar__category__productos" href="#">Microhondas</a>
+          <a class="navbar__category__productos" href="#">Hidrolavadoras</a>
+        </div>
+      </div>
+
+      <div class="navbar__dropdown">
+        <button class="navbar__category hogar">Hogar
+          <img class="navbar__category__icon" src="./assets/icons/chevron-down.svg" alt="chevron-down-icon">
+        </button>
+        <div class="navbar__category__content">
+          <a class="navbar__category__productos" href="#">Muebles y sofas</a>
+          <a class="navbar__category__productos" href="#">comedores</a>
+          <a class="navbar__category__productos" href="#">Camas y colchones</a>
+          <a class="navbar__category__productos" href="#">Escritorios y sillas</a>
+          <a class="navbar__category__productos" href="#">Cocinas integrales</a>
+          <a class="navbar__category__productos" href="#">Materas y jardineras</a>
+          <a class="navbar__category__productos" href="#">Repisas y encimeras</a>
+          <a class="navbar__category__productos" href="#">Escobas y traperos</a>
+          <a class="navbar__category__productos" href="#">Utensilios de cocina</a>
+          <a class="navbar__category__productos" href="#">Kits de herramientas</a>
+        </div>
+      </div>
+
+      <div class="navbar__dropdown">
+        <button class="navbar__category niños">Niños
+          <img class="navbar__category__icon" src="./assets/icons/chevron-down.svg" alt="chevron-down-icon">
+        </button>
+        <div class="navbar__category__content">
+          <a class="navbar__category__productos" href="#">Cuadernos de dibujo</a>
+          <a class="navbar__category__productos" href="#">Colores y crayones</a>
+          <a class="navbar__category__productos" href="#">Juego de roles</a>
+          <a class="navbar__category__productos" href="#">Monopoly</a>
+          <a class="navbar__category__productos" href="#">Muñecos</a>
+          <a class="navbar__category__productos" href="#">Barbies</a>
+          <a class="navbar__category__productos" href="#">Hotweels</a>
+          <a class="navbar__category__productos" href="#">Rompecabezas</a>
+          <a class="navbar__category__productos" href="#">Cartas</a>
+          <a class="navbar__category__productos" href="#">Dominó</a>
+        </div>
+      </div>
+
+      <div class="navbar__dropdown">
+        <button class="navbar__category libros">Libros
+          <img class="navbar__category__icon" src="./assets/icons/chevron-down.svg" alt="chevron-down-icon">
+        </button>
+        <div class="navbar__category__content">
+          <a class="navbar__category__productos" href="#">Preescolar</a>
+          <a class="navbar__category__productos" href="#">Primaria</a>
+          <a class="navbar__category__productos" href="#">Secundaria</a>
+          <a class="navbar__category__productos" href="#">Cuentos</a>
+          <a class="navbar__category__productos" href="#">Poesia y novelas</a>
+          <a class="navbar__category__productos" href="#">Ciencia ficción</a>
+          <a class="navbar__category__productos" href="#">Literatura hispanoamericana</a>
+          <a class="navbar__category__productos" href="#">Filosofia</a>
+          <a class="navbar__category__productos" href="#">Geografia</a>
+          <a class="navbar__category__productos" href="#">Naturales</a>
+          <a class="navbar__category__productos" href="#">Matematicas</a>
+          <a class="navbar__category__productos" href="#">Religiones</a>
+        </div>
+      </div>
+
+      <div class="navbar__dropdown">
+        <button class="navbar__category deportes">Deportes
+          <img class="navbar__category__icon" src="./assets/icons/chevron-down.svg" alt="chevron-down-icon">
+        </button>
+        <div class="navbar__category__content">
+          <a class="navbar__category__productos" href="#">Bicicletas</a>
+          <a class="navbar__category__productos" href="#">Raquetas-tenis</a>
+          <a class="navbar__category__productos" href="#">Cuerdas</a>
+          <a class="navbar__category__productos" href="#">Balones</a>
+          <a class="navbar__category__productos" href="#">Barras</a>
+          <a class="navbar__category__productos" href="#">Mancuernas</a>
+          <a class="navbar__category__productos" href="#">Zapatos</a>
+          <a class="navbar__category__productos" href="#">Bolsos y tulas</a>
+          <a class="navbar__category__productos" href="#">Termos</a>
+          <a class="navbar__category__productos" href="#">Protección</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
 </body>
 
 </html>
