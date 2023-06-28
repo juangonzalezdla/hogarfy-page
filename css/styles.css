@@ -162,6 +162,79 @@ body {
   padding: var(--padding);
 }
 
+.hero {
+  width: 100%;
+}
+.hero__img {
+  width: 100%;
+}
+
+.most__selled {
+  margin-top: 4rem;
+}
+.most__selled__title {
+  font-family: var(--roboto);
+  font-size: 1.5rem;
+  color: var(--oscuro);
+}
+
+
+.products__card--container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 2rem auto;
+}
+.products__card {
+  background-color: var(--blanco);
+  width: 250px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+.products__card__img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+.products__card__texts {
+  padding: 15px;
+}
+.products__card__name {
+  margin-bottom: 20px;
+}
+.products__card__price {
+  font-size: 1rem;
+  font-family: var(--roboto);
+  letter-spacing: 1px;
+  color: var(--oscuro);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.products__card__btn {
+  color: var(--blanco);
+  background-color: goldenrod;
+  font-size: 18px;
+  font-weight: 700;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 6px;
+}
+.products__card__btn i {
+  font-size: 24px;
+}
+.products__card__btn:hover {
+  cursor: pointer;
+  background-color: rgb(190, 143, 26);
+}
+
 .features {
   width: 100%;
   display: flex;
@@ -169,7 +242,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 40px;
-  margin: 4rem auto;
+  margin: 6rem auto;
 }
 .features__card {
   width: 240px;
